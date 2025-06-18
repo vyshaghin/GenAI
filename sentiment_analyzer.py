@@ -35,9 +35,9 @@ except Exception as e:
 
 
 llm = AzureChatOpenAI(
-    deployment_name="myllm",
+    deployment_name="",
     temperature=0.2,
-    openai_api_key="601031146c4745a88900a80175a1aa51",
+    openai_api_key="",
     openai_api_base="https://eastus.api.cognitive.microsoft.com/",
     openai_api_version="2024-12-01-preview"
 )
